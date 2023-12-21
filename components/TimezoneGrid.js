@@ -3,25 +3,11 @@ import TimeCard from './TimeCard'
 
 export default ({ date }) => {
 	const timezones = {
-		'Etc/UTC': 'UTC',
-		'America/New_York': 'New York, US',
-		'America/Chicago': 'Chicago, US',
-		'America/Denver': 'Denver, US',
-		'America/Los_Angeles': 'Los Angeles, US',
-		'America/Juneau': 'Juneau, AK, US',
-		'Pacific/Honolulu:': 'Honolulu, HI, US',
-		'Europe/Moscow': 'Moscow, RU',
-		'Asia/Tokyo': 'Tokyo, JP',
-		'Asia/Shanghai': 'Shanghai, CN',
-		'Asia/Singapore': 'Singapore, SG',
-		'Asia/Dubai': 'Dubai, UAE',
-		'Asia/Kolkata': 'Kolkata, IN',
-		'Europe/Paris': 'Paris, FR',
-		'Europe/London': 'London, UK',
-		'Australia/Perth': 'Perth, AU',
-		'Australia/Sydney': 'Sydney, AU',
-		'Pacific/Auckland': 'Auckland, NZ'
-	}
+		'America/New_York': 'Boston',
+		'America/Chicago': 'Wisconsin',
+		'America/Los_Angeles': 'San Francisco',
+		'Asia/Kolkata': 'India',
+	};
 
 	return (
 		<div>
